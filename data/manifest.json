@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T09:21:41+03:00",
+  "documentTypes": [
+    {
+      "id": "SPA_ANNEX",
+      "label": "SPA Annex"
+    },
+    {
+      "id": "DCR",
+      "label": "DCR"
+    },
+    {
+      "id": "DESIGN_MODEL",
+      "label": "Design Federated Model"
+    },
+    {
+      "id": "DESIGN_SUBMISSION",
+      "label": "Design Submission"
+    },
+    {
+      "id": "SUPPORTING",
+      "label": "Supporting Document"
+    },
+    {
+      "id": "OTHER",
+      "label": "Other"
+    }
+  ],
+  "metrics": [
+    "plotArea",
+    "gfa",
+    "units",
+    "population",
+    "parking",
+    "basements",
+    "floors",
+    "buildingHeight"
+  ],
+  "precincts": [
+    {
+      "code": "MD01",
+      "name": "Wadi Yemm",
+      "bbox": [
+        27.7869044,
+        31.1880829,
+        27.8275531,
+        31.2217691
+      ],
+      "files": {
+        "geometry": "MD01/plots.geojson",
+        "plots": "MD01/plots.json",
+        "documents": "MD01/documents.json"
+      },
+      "counts": {
+        "plots": 2727,
+        "plotsWithDatabaseRecord": 2519,
+        "documents": 1319
+      },
+      "sources": {
+        "database": {
+          "path": "source-data/20261012-Wadi Yemm Master Asset Database 3e247bac6bb580f8ab23e9b3b65d693b_all.csv",
+          "sizeBytes": 513479,
+          "sha256": "3c916c2ad3638a82e381094f424de30c92e890c15b9fc52bebd32e41d16d6ce4"
+        },
+        "gis": {
+          "path": "source-data/REH_Plot Wadi Yemm_Newer.geojson",
+          "sizeBytes": 9265871,
+          "sha256": "e392dbbdf0e3feb26c8c0cafc746ade97a96fb6f4b424daf997e076e2ede2d98"
+        }
+      }
+    }
+  ]
+}
